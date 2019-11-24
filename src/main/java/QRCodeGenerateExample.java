@@ -10,7 +10,7 @@ import net.glxn.qrgen.image.ImageType;
 public class QRCodeGenerateExample {
 
     public static void main(String[] args) {
-        ByteArrayOutputStream stream = QRCode.from("Constantinos Athanasiou Card!!")
+        ByteArrayOutputStream stream = QRCode.from("I love you very much!!!!!!!")
                 .to(ImageType.JPG).stream();
 
         try {

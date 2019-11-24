@@ -23,7 +23,7 @@ public class CameraTEst {
 
         // save image to PNG file
 
-        ImageIO.write(image, "jpg", new File("./Test.png"));
+        ImageIO.write(image, "jpg", new File("./CameraTEst.jpg"));
         System.out.println("\n\nYou have successfully created QR Code.");
     }
 }
